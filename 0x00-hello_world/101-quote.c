@@ -2,10 +2,10 @@
 #include <unistd.h>
 
 /**
- * main- main function in the task
+ * main - main function in the task
  *
  *
- * return: return 1
+ * return: return 1 (Success)
  */
 
 int main(void)
