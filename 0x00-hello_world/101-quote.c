@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <unistd.h>
 
 /**
  * main - main function in the task
  *
+ * Description: print a quote using write function
  *
  * return: return 1 (Success)
  */
