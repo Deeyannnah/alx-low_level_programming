@@ -1,9 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: prints single digits from 0 to 10
- * starting from zero, followed by a new line.
- * Return: 0
+ * main - Prints the numbers since 0 to 9
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		putchar(n)
+		putchar(n);
 	}
 
 	putchar('\n');
