@@ -1,23 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: print all letters of he alphabet
- *
- * Return: 0
- */
-
-int mai(void)
+ *  * main - Prints the alphabetic
+ *   *
+ *    * Return: Always (Success)
+ *     */
+int main(void)
 {
-	char ch = 'a';
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		++ch;
-	}
-	putchar('\n');
+		char c;
 
-	return (0);
+			for (c = 'a'; c <= 'z'; c++)
+						putchar(c);
 
+				putchar('\n');
+					return (0);
 }
