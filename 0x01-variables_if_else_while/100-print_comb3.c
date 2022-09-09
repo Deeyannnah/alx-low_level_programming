@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints combination of numbers
- *
- * Return: Always (Success)
+ * main - main point
+ * Description: prints combination of numbers
+ * Return: Always (success)
  */
 int main(void)
 {
@@ -17,10 +17,10 @@ int main(void)
 			{
 				putchar(c);
 				putchar(i);
-				
+
 				if (c != '8' || (c == '8' && i != '9'))
 				{
-					putchar(',';
+					putchar(',');
 					putchar(' ');
 				}
 			}
@@ -31,4 +31,4 @@ int main(void)
 
 	return (0);
 
-}	
+}
