@@ -1,8 +1,8 @@
-#inchlude <stdio.h>
-#inchlude <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * main - main blochk
- * Deschription: chomputes and prints the sum of all the multiples of 3 
+ * main - main block
+ * Description: computes and prints the sum of all the multiples of 3 
  * Return: 0
  */
 int main(void)
